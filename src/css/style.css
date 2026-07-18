@@ -1,0 +1,320 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.body {
+  padding: 100px;
+  margin: 100px;
+}
+.navbar {
+  margin-top: -50px;
+  padding: 70px 40px 30px 60px;
+  background-color: skyblue;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav a { 
+  color: black;
+  text-decoration-line: none;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 300;
+}
+.nav img {
+  padding: 10px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  background: slategray;
+}
+.banner {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.banner span {
+  color: skyblue;
+}
+.banner h1 {
+padding-bottom: 20px;
+}
+.banner p {
+  font-size: 25px;
+  font-weight: 500;
+  padding-bottom: 20px;
+  line-height: 1.5;
+}
+.banner button {
+  padding: 10px 20px;
+  background-color: skyblue;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  font-size: 18px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.banner button:hover {
+  background-color: black;
+  transition: 0.5s;
+  color: white;
+  cursor: pointer;
+}
+.info {
+  border-left: 4px solid black;
+  font-size: 18px;
+  padding-left: 10px;
+}
+.info :hover {
+  color: skyblue;
+  transition: 0.1s;
+  cursor: pointer;
+}
+.container img {
+  flex: 1;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 10px;
+}
+.experience {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: skyblue;
+  padding: 50px;
+}
+.experience nice {
+  flex: 1;
+  align-items: center;
+  justify-items: center;
+  margin-left: 40px;
+}
+.experience h3 {
+  margin-top: -70px;
+  font-size: 30px;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+.experience h2 {
+  font-size: 40px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+.experience p {
+  font-size: 25px;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+.experience button {
+  padding: 20px 20px;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.experience button:hover {
+  background-color: rgb(76, 81, 83);
+  transition: 0.5s;
+  color: black;
+  cursor: pointer;
+}
+.experience-info {
+  flex: 1;
+  align-items: center;
+  justify-items: center;
+  line-height: 2;
+  margin: 50px 200px 0px;
+}
+.nova {
+  margin: 50px;
+}
+.nova p {
+  font-size: 25px;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+.nova h2 {
+  font-size: 40px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+.experience-nova {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.experience-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.prof {
+  border: none;
+  border-radius: 15px;
+  background-color: aliceblue;
+  padding: 20px;
+}
+.prof h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+.prof-1 li {
+    padding: 10px;
+    font-size: 23px;
+    font-weight: 200;
+}
+.professional {
+    margin-top: -10px;
+    border: none;
+  border-radius: 15px;
+  background-color: aliceblue;
+  padding: 20px;
+}
+.experience-2 {
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.professional-1 li {
+    padding: 10px;
+    font-size: 23px;
+    font-weight: 200;
+    padding-bottom: 49px;
+}
+.professional h3 {
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+.project {
+  margin: 50px;
+}
+.project-1 {
+  display:flex;
+  align-items: center;
+  gap: 10px;
+}
+.project h3 {
+  font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 40px;
+    padding-right: 1100px;
+}
+.project h1 {
+  font-size: 50px;
+  font-weight: 600;
+  padding-bottom: 40px;
+}
+.project-gallery {
+  width: 100%;
+}
+.slider-container {
+  overflow: hidden;
+  width: 100%;
+}
+.slider-track {
+  display: flex;
+  align-items: center;
+  transition: transform 0.4s ease;
+}
+.slide {
+  flex: 0 0 calc(100% / 3);
+  max-width: calc(100% / 3);
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.slide img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 20px;
+  display: block;
+}
+.slider-button {
+  padding: 12px 18px;
+  background-color: skyblue;
+  border: none;
+  border-radius: 10px;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+}
+.slider-button:hover {
+  background-color: black;
+  color: white;
+}
+.slider-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+  .slide {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: skyblue;
+  gap: 30px;
+  padding-top: 100px;
+}
+.contact span { 
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+.contact h2 {
+  font-size: 40px;
+  font-weight: 600;
+  padding-top: 30px
+}
+.contact p {
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 20px;
+  
+  line-height: 1;
+}
+.contact form {
+  display: flex;
+  flex-direction:column;
+  gap: 20px
+}
+.contact input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.contact textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.contact button {
+  padding: 10px 20px;
+  background-color: black;
+  border: none;
+  border-radius: 7px; 
+  color: white;
+  font-size: 18px; 
+  margin-bottom: 20px;
+}
+.contact button:hover {
+  background-color: skyblue;
+  transition: 0.4s;
+  color: black;
+}
+
